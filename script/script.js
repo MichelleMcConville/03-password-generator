@@ -15,6 +15,16 @@ function writePassword() {
 }
 
 function generatePassword() {
+  var pwLength = prompt("Please make password between 8 to 128 characters long.");
+    console.log(pwLength);
+  var upCaseAns = confirm("Do you want use Upper Case letters?");
+    console.log(upCaseAns);
+  var lowCaseAns = confirm("Do you want use Lower Case Letters?");
+    console.log(lowCaseAns);
+  var numAns = confirm("Do you want to use Numbers?");
+    console.log(numAns);
+  var specialCharAns = confirm("Do you want to use Special Characters?");
+    console.log(specialCharAns);
 
 }
 // Add event listener to generate button
