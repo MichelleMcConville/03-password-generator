@@ -8,6 +8,7 @@ var lowCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", 
 var num = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 var specialChar = ["`", "~", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=", "+", "[", "{", "]", "}", "", "|", ";", ":", "'", ",", "<", ".", ">", "/", "?"];
 var maxArray = [];
+var newUserPw = "";
 
 // Write password to the #password input
 function writePassword() {
@@ -52,8 +53,14 @@ function generatePassword() {
         if (specialCharAns) {
           maxArray = maxArray.concat(specialChar); console.log(maxArray);
         }
-      }
-      
+
+        for (var i = 0; i < pwLength; i++) {
+          newUserPw = newUserPw + maxArray[Math.floor(Math.random() * maxArray.length)];
+        }
+
+      // Returning the random generated PW to the user
+      return newUserPw;  
+      }  
 }
 
 // Add event listener to generate button
