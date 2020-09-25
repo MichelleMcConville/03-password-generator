@@ -42,9 +42,9 @@ function generatePassword() {
     } else {
 
       // Concatenation of main arrays
-      if (upCaseAns) {maxArray = maxArray.concat(upCase);} console.log(maxArray);
-      if (lowCaseAns) {maxArray = maxArray.concat(lowCase);} console.log(maxArray);
-      if (numAns) {maxArray = maxArray.concat(num);} console.log(maxArray);
+      if (upCaseAns) {maxArray = maxArray.concat(upCase);}
+      if (lowCaseAns) {maxArray = maxArray.concat(lowCase);}
+      if (numAns) {maxArray = maxArray.concat(num);}
       if (specialCharAns) {maxArray = maxArray.concat(specialChar);} console.log(maxArray);
 
       // For Loop for random number generation
