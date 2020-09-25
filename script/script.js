@@ -7,6 +7,7 @@ var upCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "
 var lowCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 var num = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 var specialChar = ["`", "~", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=", "+", "[", "{", "]", "}", "", "|", ";", ":", "'", ",", "<", ".", ">", "/", "?"];
+var maxArray = [];
 
 // Write password to the #password input
 function writePassword() {
@@ -34,6 +35,23 @@ function generatePassword() {
       if (!upCaseAns && !lowCaseAns && !numAns && !specialCharAns) {
         alert("You must choose at least one option!");
         console.log("You must choose at least one option!");
+      } else {
+
+        if (upCaseAns) {
+          maxArray = maxArray.concat(upCase); console.log(maxArray);
+        }
+
+        if (lowCaseAns) {
+          maxArray = maxArray.concat(lowCase); console.log(maxArray);
+        }
+
+        if (numAns) {
+          maxArray = maxArray.concat(num); console.log(maxArray);
+        }
+
+        if (specialCharAns) {
+          maxArray = maxArray.concat(specialChar); console.log(maxArray);
+        }
       }
       
 }
