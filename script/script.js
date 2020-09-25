@@ -19,6 +19,9 @@ function writePassword() {
 
 // Function to generate random PW
 function generatePassword() {
+  // Resetting the values back to NULL when refresh browser is not used
+  newUserPw = ""; maxArray = [];
+  // Functions first prompt
   var pwLength = prompt("Please make password between 8 to 128 characters long."); console.log(pwLength);
 
   // Checking the PW to make sure it is a # and correct length
