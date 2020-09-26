@@ -1,6 +1,5 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-    console.log(generateBtn);
 
 // List of all variables
 var upCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
@@ -22,7 +21,7 @@ function generatePassword() {
   // Resetting the values back to NULL when refresh browser is not used
   newUserPw = ""; maxArray = [];
   // Functions first prompt
-  var pwLength = prompt("Please make password between 8 to 128 characters long."); console.log(pwLength);
+  var pwLength = prompt("Please make password between 8 to 128 characters long.");
 
   // Checking the PW to make sure it is a # and correct length
   if (isNaN(pwLength) || pwLength < 8 || pwLength >128) {
@@ -30,22 +29,21 @@ function generatePassword() {
   } else {
 
     // Confirms to ask the user what to include in the PW
-    var upCaseAns = confirm("Click OK to use \"UPPER\" case letters OR Click Cancel"); console.log(upCaseAns);
-    var lowCaseAns = confirm("Click OK to use \"lower\" case letters OR Click Cancel"); console.log(lowCaseAns);
-    var numAns = confirm("Click OK to use \"Numbers\ OR Click Cancel"); console.log(numAns);
-    var specialCharAns = confirm("Click OK to use \"Special\" Characters OR Click Cancel"); console.log(specialCharAns);
+    var upCaseAns = confirm("Click OK to use \"UPPER\" case letters OR Click Cancel");
+    var lowCaseAns = confirm("Click OK to use \"lower\" case letters OR Click Cancel");
+    var numAns = confirm("Click OK to use \"Numbers\ OR Click Cancel");
+    var specialCharAns = confirm("Click OK to use \"Special\" Characters OR Click Cancel");
 
     // Alert to notify use that ONE selection must be made
     if (!upCaseAns && !lowCaseAns && !numAns && !specialCharAns) {
       alert("You must choose at least one option!");
-      console.log("You must choose at least one option!");
     } else {
 
       // Concatenation of main arrays
       if (upCaseAns) {maxArray = maxArray.concat(upCase);}
       if (lowCaseAns) {maxArray = maxArray.concat(lowCase);}
       if (numAns) {maxArray = maxArray.concat(num);}
-      if (specialCharAns) {maxArray = maxArray.concat(specialChar);} console.log(maxArray);
+      if (specialCharAns) {maxArray = maxArray.concat(specialChar);}
 
       // For Loop for random number generation
       for (var i = 0; i < pwLength; i++) {
