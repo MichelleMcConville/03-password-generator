@@ -1,4 +1,4 @@
-# PSEUDO CODE
+# PSEUDO CODE for PW Generator
 
 ## 1. Ask how long to make the password
 
