@@ -24,7 +24,7 @@ function generatePassword() {
   var pwLength = prompt("Please make password between 8 to 128 characters long.");
 
   // Checking the PW to make sure it is a # and correct length
-  if (isNaN(pwLength) || pwLength < 8 || pwLength >128) {
+  if (isNaN(pwLength) || pwLength < 8 || pwLength > 128) {
     alert("Must enter a number between 8 & 128!");
   } else {
 
