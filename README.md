@@ -18,7 +18,7 @@ For this project the customer request we
 
 - Use the base site provided below & bring push output to the `Your Secure Password` box
 
-![Base SIte](./Assets/passwordGenerator.png)
+![Base SIte](./assets/passwordGenerator.png)
 
 ### HTML `|` [**Password Generator**](https://michellemcconville.github.io/03-password-generator/)
 
