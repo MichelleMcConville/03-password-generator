@@ -18,13 +18,13 @@ For this project the customer request we
 
 - Use the base site provided below & bring push output to the `Your Secure Password` box
 
-![Base SIte](./assets/passwordGenerator.png)
+![Base SIte](./images/passwordGenerator.png)
 
 ### HTML `|` [**Password Generator**](https://michellemcconville.github.io/03-password-generator/)
 
 - Used the html provided and changed the following:
-  - Changed `href="style.css"` to `href="./css/style.css"` on line #8
-  - Changed `src="script.js"` to `src="./script/script.js"` on line #32
+  - Changed `href="style.css"` to `href="./styles/style.css"` on line #8
+  - Changed `src="script.js"` to `src="./scripts/script.js"` on line #32
 
 ### CSS
 
@@ -44,7 +44,7 @@ For this project the customer request we
 ## Accessibility Standards Validation
 
 Successfully ran code thru [W3C](https://validator.w3.org/) validator
-![Validation Results](./assets/03-w3c-Success.png)
+![Validation Results](./images/03-w3c-Success.png)
 
 ---
 
@@ -56,4 +56,3 @@ Submitted the following for review:
 - The URL of the GitHub repository. (**README.md** included)
 
 ---
-.
