@@ -56,4 +56,3 @@ Submitted the following for review:
 - The URL of the GitHub repository. (**README.md** included)
 
 ---
-.
