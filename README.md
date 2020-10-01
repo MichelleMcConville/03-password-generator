@@ -1,4 +1,4 @@
-# Password Generator
+# [**Password Generator**](https://michellemcconville.github.io/03-password-generator/)
 
 ## Customer Request
 
@@ -20,7 +20,7 @@ Build a `Random Password Generator` where the user can create a strong password 
 
 ![Base SIte](./images/passwordGenerator.png)
 
-### HTML `|` [**Password Generator**](https://michellemcconville.github.io/03-password-generator/)
+### HTML **`|`** [**Password Generator**](https://michellemcconville.github.io/03-password-generator/)
 
 - Used the `index.html` provided & changed the following:
   - Changed `href="style.css"` to `href="./styles/style.css"` on line #8
@@ -53,16 +53,16 @@ Build a `Random Password Generator` where the user can create a strong password 
 
 ## Sources Referenced
 
-[w3schools](https://www.w3schools.com/) `|`
-[MDN web docs](https://developer.mozilla.org/en-US/) `|`
-[Markdown Guide](https://www.markdownguide.org/) `|`
-[google](https://www.google.com/)
+[**w3schools**](https://www.w3schools.com/) **`|`**
+[**MDN web docs**](https://developer.mozilla.org/en-US/) **`|`**
+[**Markdown Guide**](https://www.markdownguide.org/) **`|`**
+[**google**](https://www.google.com/)
 
 ---
 
 ## Accessibility Standards Validation
 
-Successfully ran code thru [W3C](https://validator.w3.org/) validator
+Successfully ran code thru [**W3C**](https://validator.w3.org/) validator
 ![Validation Results](./images/03-w3c-Success.png)
 
 ---
