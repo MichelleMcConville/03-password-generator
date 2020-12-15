@@ -1,4 +1,4 @@
-# [**Password Generator**](https://michellemcconville.github.io/03-password-generator/)
+# [**Password Generator**](https://michellemcconville.github.io/03-password-generator/) 🔗
 
 ## Customer Request
 
@@ -20,7 +20,7 @@ Build a `Random Password Generator` where the user can create a strong password 
 
 ![Base SIte](./images/passwordGenerator.png)
 
-### HTML **`|`** [**Password Generator**](https://michellemcconville.github.io/03-password-generator/)
+### HTML **`|`** [**Password Generator**](https://michellemcconville.github.io/03-password-generator/) 🔗
 
 - Used the `index.html` provided & changed the following:
   - Changed `href="style.css"` to `href="./styles/style.css"` on line #8
